@@ -1,0 +1,8 @@
+{
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "workbench.colorTheme": "Community Material Theme Palenight",
+    "workbench.preferredDarkColorTheme": "Community Material Theme Palenight",
+    "workbench.preferredLightColorTheme": "Community Material Theme Lighter",
+    "workbench.iconTheme": "eq-material-theme-icons-palenight"
+}
