@@ -8,17 +8,20 @@ import * as RepositoriesActions from '../../store/ducks/repositories/actions'
 import { ApplicationState } from '../../store';
 
 
+// Mapear informações que vem do mapStateToProps
 interface StateProps {
     repositories: Repository[];
 }
 
+// Mapear as funções que vem do mapDispatch
 interface DispatchProps {
     loadRequest():void
 }
 
-interface OwnProps {
+// Mapear Qualquer outra propriedade podendo vir de um componente pai por exemplo
+// interface OwnProps {
 
-}
+// }
 
 type Props = StateProps & DispatchProps & OwnProps
 
@@ -49,4 +52,4 @@ const mapDispatchToProps = (dispatch: Dispatch) => {
     bindActionCreators(RepositoriesActions, dispatch);
 }
 
-export default connect(mapStateToProps)(RepoList);
+export default connect(mapStateToProps, mapDispatchToProps)(RepoList);

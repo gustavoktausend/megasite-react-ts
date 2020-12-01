@@ -1,8 +1,11 @@
 {
     "typescript.tsdk": "node_modules/typescript/lib",
     "editor.defaultFormatter": "vscode.typescript-language-features",
-    "workbench.colorTheme": "Community Material Theme Palenight",
     "workbench.preferredDarkColorTheme": "Community Material Theme Palenight",
     "workbench.preferredLightColorTheme": "Community Material Theme Lighter",
-    "workbench.iconTheme": "eq-material-theme-icons-palenight"
+    "workbench.iconTheme": "eq-material-theme-icons-ocean",
+    "workbench.colorTheme": "Material Theme Ocean High Contrast",
+    "eslint.workingDirectories": [
+        
+        "./src"],
 }
