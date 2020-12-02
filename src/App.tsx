@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import MegaNav from './components/MegaNav';
 
 
 class App extends Component {
 
     render() {
-        return(<b>TESTE</b>)
+        return(
+            <MegaNav session={{isVip:true, user:"batata"}} />
+        )
     }
     
     
