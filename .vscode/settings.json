@@ -5,7 +5,4 @@
     "workbench.preferredLightColorTheme": "Community Material Theme Lighter",
     "workbench.iconTheme": "eq-material-theme-icons-ocean",
     "workbench.colorTheme": "Material Theme Ocean High Contrast",
-    "eslint.workingDirectories": [
-        
-        "./src"],
 }

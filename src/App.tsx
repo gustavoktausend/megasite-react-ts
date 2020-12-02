@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
-import { Provider } from 'react-redux';
-import RepoList from './components/RepoList';
 
-const App = () => <RepoList />;
+
+class App extends Component {
+
+    render() {
+        return(<b>TESTE</b>)
+    }
+    
+    
+};
 
 export default App;
