@@ -1,0 +1,35 @@
+
+.nav-mega {
+    background: transparent linear-gradient(270deg, #00CFEA 0%, #00A2DC 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.nav-vip-mega {
+    background: transparent linear-gradient(270deg, #1C1C1C 0%, #4A4A4A 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.nav-button-mega {
+    border: 2px solid #FFFFFF33;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: 1;
+    &:hover {
+        border: 2px solid #FFFFFF33;
+    }
+}
+
+.nav-button-join-mega {
+    @extend .nav-button-mega;
+    background: transparent linear-gradient(270deg, #04B8DC 0%, #05A1D2 100%) 0% 0% no-repeat padding-box;
+}
+
+.nav-button-playnow-mega {
+    @extend .nav-button-mega;
+    background: transparent linear-gradient(271deg, #535353 0%, #1C1C1C 100%) 0% 0% no-repeat padding-box;
+}
+
+.nav-link-mega {
+    color: white;
+}

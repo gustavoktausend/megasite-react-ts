@@ -1,5 +1,5 @@
 export default interface Session{
-    isVip: boolean,
-    user: string,
+    readonly isVip: boolean,
+    readonly user: string,
      
 }
