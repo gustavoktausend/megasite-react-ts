@@ -12,7 +12,7 @@ class App extends Component {
 
 
         return(
-            <MegaNav session={potatoUser} />
+            <MegaNav session={batataUser} />
         )
     }
     
